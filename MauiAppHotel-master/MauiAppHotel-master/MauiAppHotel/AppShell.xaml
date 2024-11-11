@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Shell xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+       x:Class="MauiAppHotel.AppShell">
+
+    <!-- Definindo itens de navegação -->
+    <ShellItem Title="Home">
+        <ShellContent Title="Início" ContentTemplate="{DataTemplate local:MainPage}" />
+    </ShellItem>
+
+    <ShellItem Title="Reservas">
+        <ShellContent Title="Fazer Reserva" ContentTemplate="{DataTemplate local:ReservaPage}" />
+    </ShellItem>
+
+    <ShellItem Title="Perfil">
+        <ShellContent Title="Perfil do Usuário" ContentTemplate="{DataTemplate local:PerfilPage}" />
+    </ShellItem>
+</Shell>

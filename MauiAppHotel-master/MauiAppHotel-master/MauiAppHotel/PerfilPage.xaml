@@ -1,0 +1,10 @@
+<!-- PerfilPage.xaml -->
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppHotel.PerfilPage"
+             Title="Perfil do Usuário">
+    <StackLayout Padding="20">
+        <Label Text="Página de Perfil" FontSize="Large" HorizontalOptions="Center" />
+        <!-- Componentes de perfil -->
+    </StackLayout>
+</ContentPage>
